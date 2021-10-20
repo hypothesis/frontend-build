@@ -107,3 +107,7 @@ the input files change.
 ### Utilities
 
 `run(command, args)` - Run a CLI command and forward the output to the terminal.
+
+## Additional documentation
+
+[Release guide](https://github.com/hypothesis/frontend-shared/blob/main/docs/releases.md). _Note this is in the frontend-shared repository. The process is the same for this one._
