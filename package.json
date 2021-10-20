@@ -1,0 +1,50 @@
+{
+  "name": "@hypothesis/frontend-build",
+  "version": "1.0.0",
+  "description": "Hypothesis frontend build scripts",
+  "type": "module",
+  "exports": "./index.js",
+  "repository": "https://github.com/hypothesis/frontend-build",
+  "author": "Hypothesis developers",
+  "license": "BSD-2-Clause",
+  "private": false,
+  "files": [
+    "index.js",
+    "lib/*.js"
+  ],
+  "devDependencies": {
+    "@types/fancy-log": "^1.3.1",
+    "@types/glob": "^7.1.4",
+    "@types/karma": "^6.3.1",
+    "@types/node": "^16.11.1",
+    "@types/sass": "^1.16.1",
+    "autoprefixer": "^10.3.7",
+    "karma": "^6.3.4",
+    "postcss": "^8.3.9",
+    "prettier": "^2.4.1",
+    "rollup": "^2.58.0",
+    "sass": "^1.43.2",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "commander": "^8.2.0",
+    "fancy-log": "^1.3.3",
+    "glob": "^7.2.0"
+  },
+  "peerDependencies": {
+    "autoprefixer": "^10.3.7",
+    "karma": "^6.3.4",
+    "postcss": "^8.3.9",
+    "rollup": "^2.58.0",
+    "sass": "^1.43.2"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "singleQuote": true
+  },
+  "scripts": {
+    "checkformatting": "prettier --check '**/*.js'",
+    "format": "prettier --list-different --write '**/*.js'",
+    "typecheck": "tsc"
+  }
+}
