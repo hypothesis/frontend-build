@@ -19,6 +19,7 @@
     "@types/node": "^16.11.1",
     "@types/sass": "^1.16.1",
     "autoprefixer": "^10.3.7",
+    "eslint": "^8.0.1",
     "karma": "^6.3.4",
     "postcss": "^8.3.9",
     "prettier": "^2.4.1",
@@ -45,6 +46,7 @@
   "scripts": {
     "checkformatting": "prettier --check '**/*.js'",
     "format": "prettier --list-different --write '**/*.js'",
+    "lint": "eslint .",
     "typecheck": "tsc"
   }
 }
