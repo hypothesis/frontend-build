@@ -87,6 +87,10 @@ after building the bundle and rebuilds if they change.
 
 `buildCSS(inputs)` - Build one or more CSS bundles from CSS or SASS entry points.
 
+`generateManifest(options)` - Generate a JSON asset manifest suitable for use
+with the [h-assets](https://pypi.org/project/h-assets/) package used by Python
+apps to serve static assets.
+
 ### Running tests
 
 `runTests(config)` - Build a JavaScript bundle of tests from a set of input files
@@ -94,7 +98,7 @@ and run them in Karma.
 
 The test bundle is created by first finding all test files that match the
 `testsPattern` argument and generating an entry point,
-`build/scripts/test-inputs.js`, which imports all of the test files. The 
+`build/scripts/test-inputs.js`, which imports all of the test files. The
 bundle is then built by passing the config specified by `rollupConfig` to
 Rollup. Once the bundle has been generated, Karma is started using the config
 file specified by `karmaConfig`, which should load the test bundle.
