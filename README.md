@@ -59,7 +59,10 @@ import { buildCSS, buildJS, watchCSS, runTests } from '@hypothesis/frontend-buil
 
 gulp.task('build-js', () => buildJS('rollup.config.mjs'));
 gulp.task('watch-js', () => watchJS('rollup.config.mjs'));
-gulp.task('build-css', () => buildCSS(['src/my-app.scss', 'src/other-app.scss']));
+gulp.task('build-css', () => buildCSS(
+  ['src/my-app.scss', 'src/other-app.scss'],
+  { tailwindConfig }
+));
 gulp.task('watch-css', () => gulp.watch('src/**/*.scss', 'build-css'));
 gulp.task('watch', gulp.parallel('watch-js', 'watch-css'));
 gulp.task('test', () => runTests({
@@ -85,7 +88,10 @@ Rollup config file. The Rollup config file must be an ES module.
 `watchJS(rollupConfig)` - Same as `buildJS`, but watches for updates to input files
 after building the bundle and rebuilds if they change.
 
-`buildCSS(inputs)` - Build one or more CSS bundles from CSS or SASS entry points.
+`buildCSS(inputs, options = {})` - Build one or more CSS bundles from CSS or SASS
+entry points, with optional support for Tailwind.
+
+- `options.tailwindConfig` : Optional [Tailwind config/preset](https://tailwindcss.com/docs/configuration)
 
 `generateManifest(options)` - Generate a JSON asset manifest suitable for use
 with the [h-assets](https://pypi.org/project/h-assets/) package used by Python
