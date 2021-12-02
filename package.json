@@ -42,6 +42,11 @@
     "sass": "^1.43.2",
     "tailwindcss": "^2.2.19"
   },
+  "peerDependenciesMeta": {
+    "tailwindcss": {
+      "optional": true
+    }
+  },
   "prettier": {
     "arrowParens": "avoid",
     "singleQuote": true
