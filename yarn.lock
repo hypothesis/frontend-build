@@ -137,9 +137,9 @@
     "@types/node" "*"
 
 "@types/tailwindcss@^3.0.2":
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/@types/tailwindcss/-/tailwindcss-3.0.4.tgz#ece342b039cb067cf46104c416bb9f9fec128691"
-  integrity sha512-ICFSmSeBMqPCpa3/fIGt4jjLbbIxqpV3pZeniosFIZ3dEWxSJH+6j0Gm3GOLnUQ18/bOiIFjuH3Tha+WhogiOA==
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/@types/tailwindcss/-/tailwindcss-3.0.7.tgz#28ba83255d9f6371c1e9ee9e98ba3c6daf62588f"
+  integrity sha512-M3DEErH+kbqRPcYg3CFhf0UFJwD1xgOjm9GxJcUZJGO/DZwu1fBknt4ajXCU6BI2wvTeLq9pSam78fcbjDOsCQ==
 
 accepts@~1.3.4:
   version "1.3.7"
