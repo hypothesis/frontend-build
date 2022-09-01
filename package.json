@@ -14,7 +14,7 @@
   ],
   "devDependencies": {
     "@types/fancy-log": "^2.0.0",
-    "@types/glob": "^7.1.4",
+    "@types/glob": "^8.0.0",
     "@types/karma": "^6.3.1",
     "@types/node": "^18.0.0",
     "@types/sass": "^1.16.1",
