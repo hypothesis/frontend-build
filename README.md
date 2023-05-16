@@ -110,7 +110,7 @@ Rollup. Once the bundle has been generated, Karma is started using the config
 file specified by `karmaConfig`, which should load the test bundle.
 
 This command supports filtering which tests are run
-by using the `--grep <file pattern>` CLI argument. If the `--watch` CLI flag is
+by using the `--grep <file pattern>` CLI argument. If the `--live` CLI flag is
 set, the test runner watches for changes and rebuild and re-runs the tests if
 the input files change.
 
