@@ -7,7 +7,6 @@
   "repository": "https://github.com/hypothesis/frontend-build",
   "author": "Hypothesis developers",
   "license": "BSD-2-Clause",
-  "private": false,
   "files": [
     "index.js",
     "lib/*.js"
@@ -56,5 +55,6 @@
     "format": "prettier --list-different --write '**/*.js'",
     "lint": "eslint .",
     "typecheck": "tsc"
-  }
+  },
+  "packageManager": "yarn@3.6.0"
 }
