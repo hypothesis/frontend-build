@@ -371,12 +371,12 @@ __metadata:
   linkType: hard
 
 "@types/karma@npm:^6.3.1":
-  version: 6.3.6
-  resolution: "@types/karma@npm:6.3.6"
+  version: 6.3.7
+  resolution: "@types/karma@npm:6.3.7"
   dependencies:
     "@types/node": "*"
     log4js: ^6.4.1
-  checksum: 3f0a105f98bd2ba386250f3be2730856331c308971893087a05535aa2e386ba6525cd381c93197d8700362532a1f3c8ca360ac6662f6314dbb639787ee72c835
+  checksum: cbc116ef15e71d51fc80e34ed0cc47dd954b9c6d1a51f85ddb10b86e4069560dd77f79d28ea5eb0c822b982b6c22c1819472aa50d1d3a5f1a7059083beafa3fa
   languageName: node
   linkType: hard
 
