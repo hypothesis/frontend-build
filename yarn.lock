@@ -354,9 +354,9 @@ __metadata:
   linkType: hard
 
 "@types/fancy-log@npm:^2.0.0":
-  version: 2.0.1
-  resolution: "@types/fancy-log@npm:2.0.1"
-  checksum: d26c681481024862449bb6f90fa3f1edec2c28a8f19e6f7398a8e0a815110a780800197149ab27be16f672a5d75892e7f1125676af44dce41be80644cd012998
+  version: 2.0.2
+  resolution: "@types/fancy-log@npm:2.0.2"
+  checksum: 17617367f3669a0418a5a0238cd0eae87d8ed9537868d270fbab307ff897f13a5ea1d21767570bb14ea6dcce7e2de6aefe79a12a860fba459a59d3c2db93c351
   languageName: node
   linkType: hard
 
