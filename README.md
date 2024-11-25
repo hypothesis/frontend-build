@@ -116,6 +116,9 @@ the input files change.
 
 ### Utilities
 
+`log.{info, warn, error}(message...)` - Log a message with a timestamp. This
+is a re-export of [fancy-log](https://www.npmjs.com/package/fancy-log)'s API.
+
 `run(command, args)` - Run a CLI command and forward the output to the terminal.
 
 ## Additional documentation
