@@ -1,3 +1,5 @@
+export { default as log } from 'fancy-log';
+
 export { buildJS, watchJS } from './lib/rollup.js';
 export { buildCSS } from './lib/sass.js';
 export { generateManifest } from './lib/manifest.js';
