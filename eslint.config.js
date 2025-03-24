@@ -1,7 +1,8 @@
-import globals from 'globals';
 import js from '@eslint/js';
+import { defineConfig } from 'eslint/config';
+import globals from 'globals';
 
-export default [
+export default defineConfig([
   js.configs.recommended,
   {
     languageOptions: {
@@ -12,4 +13,4 @@ export default [
       sourceType: 'module',
     },
   },
-];
+]);
