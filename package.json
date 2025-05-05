@@ -3,7 +3,26 @@
   "version": "3.2.2",
   "description": "Hypothesis frontend build scripts",
   "type": "module",
-  "exports": "./index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    },
+    "./manifest": {
+      "import": "./lib/manifest.js"
+    },
+    "./rollup": {
+      "import": "./lib/rollup.js"
+    },
+    "./run": {
+      "import": "./lib/run.js"
+    },
+    "./sass": {
+      "import": "./lib/sass.js"
+    },
+    "./tests": {
+      "import": "./lib/tests.js"
+    }
+  },
   "repository": "https://github.com/hypothesis/frontend-build",
   "author": "Hypothesis developers",
   "license": "BSD-2-Clause",

@@ -75,6 +75,16 @@ gulp.task('test', () => runTests({
 // Project-specific tasks...
 ```
 
+Functions can be imported from the main export, or from individual ones if you
+don't want to install all optional peer dependencies:
+
+```js
+import { buildJS, watchJS } from '@hypothesis/frontend-build/rollup';
+import { buildCSS } from '@hypothesis/frontend-build/sass';
+import { runTests } from '@hypothesis/frontend-build/tests';
+
+```
+
 ## API reference
 
 This section provides an overview of the functions in this package. See the
