@@ -44,7 +44,16 @@
     "vitest": "^3.1.1"
   },
   "peerDependenciesMeta": {
+    "autoprefixer": {
+      "optional": true
+    },
     "karma": {
+      "optional": true
+    },
+    "postcss": {
+      "optional": true
+    },
+    "sass": {
       "optional": true
     },
     "tailwindcss": {
