@@ -33,13 +33,11 @@
   "devDependencies": {
     "@types/fancy-log": "^2.0.0",
     "@types/glob": "^8.0.0",
-    "@types/karma": "^6.3.1",
     "@types/node": "^22.0.0",
     "@types/sass": "^1.16.1",
     "@types/tailwindcss": "^3.0.2",
     "autoprefixer": "^10.3.7",
     "eslint": "^9.23.0",
-    "karma": "^6.3.4",
     "postcss": "^8.3.9",
     "prettier": "^3.0.0",
     "rollup": "^4.0.2",
@@ -55,7 +53,6 @@
   },
   "peerDependencies": {
     "autoprefixer": "^10.3.7",
-    "karma": "^6.3.4",
     "postcss": "^8.3.9",
     "rollup": "^4.0.2",
     "sass": "^1.43.2",
@@ -66,9 +63,6 @@
     "autoprefixer": {
       "optional": true
     },
-    "karma": {
-      "optional": true
-    },
     "postcss": {
       "optional": true
     },
@@ -76,9 +70,6 @@
       "optional": true
     },
     "tailwindcss": {
-      "optional": true
-    },
-    "vitest": {
       "optional": true
     }
   },

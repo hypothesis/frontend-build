@@ -13,7 +13,7 @@ This project assumes our standard tech stack for frontend projects:
 - [Gulp](https://gulpjs.com) for running tasks [1]
 - [Rollup](https://rollupjs.org/guide/en/) for building JavaScript bundles
 - [Sass](https://sass-lang.com) for authoring styles
-- [Karma](https://karma-runner.github.io/latest/index.html) for running tests
+- [Vitest](https://vitest.dev/) for running tests
 
 [1] Gulp is not required as the task runner, but is how most of our projects
 are currently set up.
@@ -24,9 +24,9 @@ The typical structure of a Hypothesis frontend project looks like:
 
 ```sh
 gulpfile.mjs  # Gulp tasks
+vitest.config.js  # Vitest config file
 
 src/  # Source files ("$PROJECT_NAME/static/scripts" in Python projects)
-  karma.config.js  # Karma config file
   tests/
     bootstrap.js  # JS module that configures test environment
 
@@ -67,7 +67,7 @@ gulp.task('watch-css', () => gulp.watch('src/**/*.scss', 'build-css'));
 gulp.task('watch', gulp.parallel('watch-js', 'watch-css'));
 gulp.task('test', () => runTests({
   bootstrapFile: 'src/tests/bootstrap.js',
-  karmaConfig: 'src/karma.config.js',
+  vitestConfig: 'vitest.config.js',
   rollupConfig: 'rollup-tests.config.mjs',
   testsPattern: '**/*-test.js',
 });
@@ -110,14 +110,14 @@ apps to serve static assets.
 ### Running tests
 
 `runTests(config)` - Build a JavaScript bundle of tests from a set of input files
-and run them in Karma.
+and run them in Vitest.
 
 The test bundle is created by first finding all test files that match the
 `testsPattern` argument and generating an entry point,
 `build/scripts/test-inputs.js`, which imports all of the test files. The
 bundle is then built by passing the config specified by `rollupConfig` to
-Rollup. Once the bundle has been generated, Karma is started using the config
-file specified by `karmaConfig`, which should load the test bundle.
+Rollup. Once the bundle has been generated, Vitest is started using the config
+file specified by `vitestConfig`, which should load the test bundle.
 
 This command supports filtering which tests are run
 by using the `--grep <file pattern>` CLI argument. If the `--live` CLI flag is
