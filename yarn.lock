@@ -328,7 +328,7 @@ __metadata:
     "@types/sass": ^1.16.1
     "@types/tailwindcss": ^3.0.2
     autoprefixer: ^10.3.7
-    commander: ^13.0.0
+    commander: ^14.0.0
     eslint: ^9.23.0
     fancy-log: ^2.0.0
     glob: ^11.0.0
@@ -1285,10 +1285,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^13.0.0":
-  version: 13.1.0
-  resolution: "commander@npm:13.1.0"
-  checksum: 8ca2fcb33caf2aa06fba3722d7a9440921331d54019dabf906f3603313e7bf334b009b862257b44083ff65d5a3ab19e83ad73af282bd5319f01dc228bdf87ef0
+"commander@npm:^14.0.0":
+  version: 14.0.0
+  resolution: "commander@npm:14.0.0"
+  checksum: 6e9bdaf2e8e4f512855ffc10579eeae2e84c4a7697a91b1a5f62aab3c9849182207855268dd7c3952ae7a2334312a7138f58e929e4b428aef5bf8af862685c9b
   languageName: node
   linkType: hard
 
