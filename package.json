@@ -31,18 +31,18 @@
     "lib/*.js"
   ],
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
     "@types/fancy-log": "^2.0.0",
     "@types/glob": "^9.0.0",
     "@types/node": "^24.0.2",
     "@types/sass": "^1.16.1",
-    "@types/tailwindcss": "^3.0.2",
     "autoprefixer": "^10.3.7",
     "eslint": "^9.23.0",
     "postcss": "^8.3.9",
     "prettier": "^3.0.0",
     "rollup": "^4.0.2",
     "sass": "^1.43.2",
-    "tailwindcss": "^3.0.11",
+    "tailwindcss": "^4.1.0",
     "typescript": "^5.0.2",
     "vitest": "^3.1.1"
   },
@@ -52,11 +52,12 @@
     "glob": "^11.0.0"
   },
   "peerDependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
     "autoprefixer": "^10.3.7",
     "postcss": "^8.3.9",
     "rollup": "^4.0.2",
     "sass": "^1.43.2",
-    "tailwindcss": "^3.0.11",
+    "tailwindcss": "^4.1.0",
     "vitest": "^3.1.1"
   },
   "peerDependenciesMeta": {
