@@ -336,7 +336,7 @@ __metadata:
     prettier: ^3.0.0
     rollup: ^4.0.2
     sass: ^1.43.2
-    tailwindcss: ^3.0.11
+    tailwindcss: ^4.1.13
     typescript: ^5.0.2
     vitest: ^3.1.1
   peerDependencies:
@@ -344,7 +344,7 @@ __metadata:
     postcss: ^8.3.9
     rollup: ^4.0.2
     sass: ^1.43.2
-    tailwindcss: ^3.0.11
+    tailwindcss: ^4.1.13
     vitest: ^3.1.1
   peerDependenciesMeta:
     autoprefixer:
@@ -3514,7 +3514,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:*, tailwindcss@npm:^3.0.11":
+"tailwindcss@npm:*":
   version: 3.4.17
   resolution: "tailwindcss@npm:3.4.17"
   dependencies:
@@ -3544,6 +3544,13 @@ __metadata:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
   checksum: bda962f30e9a2f0567e2ee936ec863d5178958078e577ced13da60b3af779062a53a7e95f2f32b5c558f12a7477dea3ce071441a7362c6d7bf50bc9e166728a4
+  languageName: node
+  linkType: hard
+
+"tailwindcss@npm:^4.1.13":
+  version: 4.1.13
+  resolution: "tailwindcss@npm:4.1.13"
+  checksum: 25e2883c69190c6474a6c44caed8f82511a4025a2285e34bca4b79671a73acd79e74844a4908313098218de81a5aba62df727bb6ee26f69eeca3386b4941de4b
   languageName: node
   linkType: hard
 
