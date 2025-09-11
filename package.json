@@ -39,7 +39,6 @@
     "@types/glob": "^9.0.0",
     "@types/node": "^24.0.2",
     "@types/sass": "^1.16.1",
-    "autoprefixer": "^10.3.7",
     "eslint": "^9.23.0",
     "postcss": "^8.3.9",
     "prettier": "^3.0.0",
@@ -56,7 +55,6 @@
   },
   "peerDependencies": {
     "@tailwindcss/postcss": "^4.1.13",
-    "autoprefixer": "^10.3.7",
     "postcss": "^8.3.9",
     "rollup": "^4.0.2",
     "sass": "^1.43.2",
@@ -65,9 +63,6 @@
   },
   "peerDependenciesMeta": {
     "@tailwindcss/postcss": {
-      "optional": true
-    },
-    "autoprefixer": {
       "optional": true
     },
     "postcss": {
