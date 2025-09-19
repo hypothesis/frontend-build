@@ -12,7 +12,7 @@ This project assumes our standard tech stack for frontend projects:
 
 - [Gulp](https://gulpjs.com) for running tasks [1]
 - [Rollup](https://rollupjs.org/guide/en/) for building JavaScript bundles
-- [Sass](https://sass-lang.com) for authoring styles
+- [Tailwind](https://tailwindcss.com) or [Sass](https://sass-lang.com) for authoring styles
 - [Vitest](https://vitest.dev/) for running tests
 
 [1] Gulp is not required as the task runner, but is how most of our projects
@@ -60,10 +60,10 @@ import { buildCSS, buildJS, watchCSS, runTests } from '@hypothesis/frontend-buil
 gulp.task('build-js', () => buildJS('rollup.config.mjs'));
 gulp.task('watch-js', () => watchJS('rollup.config.mjs'));
 gulp.task('build-css', () => buildCSS(
-  ['src/my-app.scss', 'src/other-app.scss'],
-  { tailwindConfig }
+  ['src/my-app.css', 'src/other-app.css'],
+  { tailwind: true }
 ));
-gulp.task('watch-css', () => gulp.watch('src/**/*.scss', 'build-css'));
+gulp.task('watch-css', () => gulp.watch('src/**/*.css', 'build-css'));
 gulp.task('watch', gulp.parallel('watch-js', 'watch-css'));
 gulp.task('test', () => runTests({
   bootstrapFile: 'src/tests/bootstrap.js',
@@ -101,7 +101,7 @@ after building the bundle and rebuilds if they change.
 `buildCSS(inputs, options = {})` - Build one or more CSS bundles from CSS or SASS
 entry points, with optional support for Tailwind.
 
-- `options.tailwindConfig` : Optional [Tailwind config/preset](https://tailwindcss.com/docs/configuration)
+- `options.tailwind` : Enable [Tailwind](https://tailwindcss.com)
 
 `generateManifest(options)` - Generate a JSON asset manifest suitable for use
 with the [h-assets](https://pypi.org/project/h-assets/) package used by Python
