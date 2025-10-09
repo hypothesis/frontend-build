@@ -1,6 +1,6 @@
 {
   "name": "@hypothesis/frontend-build",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "Hypothesis frontend build scripts",
   "type": "module",
   "exports": {
