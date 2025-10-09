@@ -26,7 +26,10 @@
       "import": "./lib/tests.js"
     }
   },
-  "repository": "https://github.com/hypothesis/frontend-build",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypothesis/frontend-build.git"
+  },
   "author": "Hypothesis developers",
   "license": "BSD-2-Clause",
   "files": [
