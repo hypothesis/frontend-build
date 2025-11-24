@@ -54,7 +54,7 @@
   "dependencies": {
     "commander": "^14.0.0",
     "fancy-log": "^2.0.0",
-    "glob": "^11.0.0"
+    "glob": "^13.0.0"
   },
   "peerDependencies": {
     "@tailwindcss/postcss": "^4.1.13",
