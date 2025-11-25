@@ -379,6 +379,7 @@ __metadata:
     commander: ^14.0.0
     eslint: ^9.23.0
     fancy-log: ^2.0.0
+    glob: ^13.0.0
     postcss: ^8.3.9
     prettier: ^3.0.0
     rollup: ^4.0.2
@@ -1992,7 +1993,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:*":
+"glob@npm:*, glob@npm:^13.0.0":
   version: 13.0.0
   resolution: "glob@npm:13.0.0"
   dependencies:
