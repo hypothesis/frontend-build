@@ -374,7 +374,7 @@ __metadata:
     "@tailwindcss/postcss": ^4.1.13
     "@types/fancy-log": ^2.0.0
     "@types/glob": ^9.0.0
-    "@types/node": ^24.0.2
+    "@types/node": ^25.2.2
     "@types/sass": ^1.16.1
     commander: ^14.0.0
     eslint: ^9.23.0
@@ -1049,12 +1049,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^24.0.2":
-  version: 24.10.1
-  resolution: "@types/node@npm:24.10.1"
+"@types/node@npm:^25.2.2":
+  version: 25.2.2
+  resolution: "@types/node@npm:25.2.2"
   dependencies:
     undici-types: ~7.16.0
-  checksum: c2f370ae7a97c04991e0eee6b57e588a2abef0814a5f6e41fda5a9200cf02ae6654fad51c8372ee203ae4134bab80f5bf441c586f7f50e0fda3ba422f35eb3c0
+  checksum: 917d0dc0cbc18e615282825d8ec5352da9c0eda9992fce995d12219b3c8de11f19923a52ad4cbb90f808a210ecf8d6f6ca4efa4a974dfd555982cdb8b9ee8d67
   languageName: node
   linkType: hard
 
