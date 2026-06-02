@@ -182,7 +182,7 @@ __metadata:
     "@types/glob": ^9.0.0
     "@types/node": ^24.0.2
     "@types/sass": ^1.16.1
-    commander: ^14.0.0
+    commander: ^15.0.0
     eslint: ^9.23.0
     fancy-log: ^2.0.0
     glob: ^13.0.0
@@ -1357,10 +1357,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^14.0.0":
-  version: 14.0.2
-  resolution: "commander@npm:14.0.2"
-  checksum: 0a9e549565d368dde2965821833324069b92b099b415c2106996e47db1f0b8c10c77367e9876873c00a52ca627af4c7472eba9b51dc0d6a3ef152ea063d3e9e9
+"commander@npm:^15.0.0":
+  version: 15.0.0
+  resolution: "commander@npm:15.0.0"
+  checksum: e8aaa24591ae09389e83320431d47b44d9b03abe754586b689020b6bb6fc950a0089e9379099efa2e63b6b7c0e1e216bcf6b485754da7a54a74840077f3c6d2b
   languageName: node
   linkType: hard
 

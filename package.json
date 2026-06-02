@@ -52,7 +52,7 @@
     "vitest": "^4.0.1"
   },
   "dependencies": {
-    "commander": "^14.0.0",
+    "commander": "^15.0.0",
     "fancy-log": "^2.0.0",
     "glob": "^13.0.0"
   },
