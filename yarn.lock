@@ -1002,25 +1002,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/expect@npm:4.1.6":
-  version: 4.1.6
-  resolution: "@vitest/expect@npm:4.1.6"
+"@vitest/expect@npm:4.1.8":
+  version: 4.1.8
+  resolution: "@vitest/expect@npm:4.1.8"
   dependencies:
     "@standard-schema/spec": ^1.1.0
     "@types/chai": ^5.2.2
-    "@vitest/spy": 4.1.6
-    "@vitest/utils": 4.1.6
+    "@vitest/spy": 4.1.8
+    "@vitest/utils": 4.1.8
     chai: ^6.2.2
     tinyrainbow: ^3.1.0
-  checksum: 1e8331ddb80a91d58edc4e4b438857291d85a7855e948554514f6af7ccc48661cefe1fef35d4ce0a9a362a7302def1f15fc5e32cd8609e0ffd478cd0b66a1fef
+  checksum: b6240bba2f5ca49cf0bb0250b0be783c93a825f637e09963b9886a80f496c69415145cd7f83a69ed9649d89ab62e56a06c87ddaa63b9e60b1ed92f3321a7cf93
   languageName: node
   linkType: hard
 
-"@vitest/mocker@npm:4.1.6":
-  version: 4.1.6
-  resolution: "@vitest/mocker@npm:4.1.6"
+"@vitest/mocker@npm:4.1.8":
+  version: 4.1.8
+  resolution: "@vitest/mocker@npm:4.1.8"
   dependencies:
-    "@vitest/spy": 4.1.6
+    "@vitest/spy": 4.1.8
     estree-walker: ^3.0.3
     magic-string: ^0.30.21
   peerDependencies:
@@ -1031,56 +1031,56 @@ __metadata:
       optional: true
     vite:
       optional: true
-  checksum: 09e799a537bec1c91c987943736675e1fe1dd3f09436f8c784c79458c7c724311b3ecbba5c34e77b7c0bc763e3704cd9fe26bfcdc9a104ae73c5174362b0c11a
+  checksum: f364ea6b0de73822b57cbfac993e3b3e0eea7fff76ebc8e0e00d16056abb214298adad40a048b118f5df3a025c5a2a870c5c4dc636dcd7796b837a29807b6e4d
   languageName: node
   linkType: hard
 
-"@vitest/pretty-format@npm:4.1.6":
-  version: 4.1.6
-  resolution: "@vitest/pretty-format@npm:4.1.6"
+"@vitest/pretty-format@npm:4.1.8":
+  version: 4.1.8
+  resolution: "@vitest/pretty-format@npm:4.1.8"
   dependencies:
     tinyrainbow: ^3.1.0
-  checksum: 42d85f0184c54ce100b479fd3bea17a259595af6aa9591648b5782dd81890a897ccaaab498cc7786fee0d18a2f38af840f5d7af3b40a2aa9033a6f45a24f319a
+  checksum: fc9706c652b370ffe111fdd8d9246ee57f1f326817528c9166c14f78d55e0fe4f3efd98ec46950fdc101306ab77827cedd08214d46bb0544ec8e4b3561297265
   languageName: node
   linkType: hard
 
-"@vitest/runner@npm:4.1.6":
-  version: 4.1.6
-  resolution: "@vitest/runner@npm:4.1.6"
+"@vitest/runner@npm:4.1.8":
+  version: 4.1.8
+  resolution: "@vitest/runner@npm:4.1.8"
   dependencies:
-    "@vitest/utils": 4.1.6
+    "@vitest/utils": 4.1.8
     pathe: ^2.0.3
-  checksum: a7c32f0a816deaaa3aea7fdc064c37150da6a905f4782473c3e3b14c09e26660326d1c43e2816633d7d6cbe6a85ce60790181da15f1a6a593fc6e4cfbff97db7
+  checksum: 8723cd10ea33a1ca0f5217d9e057258459b780fe014ccf37dffb5b6ee3a3e50c13fb58b8128f8d26be9bb8be22d656a6687c16e814a5807441c375a64f317bfe
   languageName: node
   linkType: hard
 
-"@vitest/snapshot@npm:4.1.6":
-  version: 4.1.6
-  resolution: "@vitest/snapshot@npm:4.1.6"
+"@vitest/snapshot@npm:4.1.8":
+  version: 4.1.8
+  resolution: "@vitest/snapshot@npm:4.1.8"
   dependencies:
-    "@vitest/pretty-format": 4.1.6
-    "@vitest/utils": 4.1.6
+    "@vitest/pretty-format": 4.1.8
+    "@vitest/utils": 4.1.8
     magic-string: ^0.30.21
     pathe: ^2.0.3
-  checksum: 4f1c9e0beb6c12098022ab487f698524e913a12e123614b20ce6279d81953d358f538d600f1af03536776cc6f182579956fe7128e2b58273b854534b3a892cd2
+  checksum: e4856e68eb45790dee8493b392c62fdbd78121e91a8bf8cade8bb01400f155aedc6c75a3de2db51d2af2f13c2b94343199d26f4b4f1b13517c0876fcf5abd71d
   languageName: node
   linkType: hard
 
-"@vitest/spy@npm:4.1.6":
-  version: 4.1.6
-  resolution: "@vitest/spy@npm:4.1.6"
-  checksum: e96b1ba56408597fe8f131f939b0345abf68db5266319fedeb0663047fb892f39fef1c37d9c9c82d98aeb3a912cca841429518720742ae94fec629083a614816
+"@vitest/spy@npm:4.1.8":
+  version: 4.1.8
+  resolution: "@vitest/spy@npm:4.1.8"
+  checksum: d91fb91357979e1a8d026d1d3dbafbac4c9b80e6cae94b859bed64f45d4d52750f593a4135718d2fdacb1405935231590947546062a8b494730c825a3e7578b1
   languageName: node
   linkType: hard
 
-"@vitest/utils@npm:4.1.6":
-  version: 4.1.6
-  resolution: "@vitest/utils@npm:4.1.6"
+"@vitest/utils@npm:4.1.8":
+  version: 4.1.8
+  resolution: "@vitest/utils@npm:4.1.8"
   dependencies:
-    "@vitest/pretty-format": 4.1.6
+    "@vitest/pretty-format": 4.1.8
     convert-source-map: ^2.0.0
     tinyrainbow: ^3.1.0
-  checksum: bfefbaf1b58e321bb26fbf07a05aeca10b3c8811add59be30e84e2976513d7d7bfafc8407d91c6723112c256f80d52b6a093b257b65d9cdfa408eaef597da488
+  checksum: aa9a05ffd8e41c4899a45e876501b7401d5c95cb29dee0285f0b5930cdc6b717a0dd1d3d7144e90a6114d03590d54ade6a93dd23bbf0b7936be24ca6e4e80f42
   languageName: node
   linkType: hard
 
@@ -3401,16 +3401,16 @@ __metadata:
   linkType: hard
 
 "vitest@npm:^4.0.1":
-  version: 4.1.6
-  resolution: "vitest@npm:4.1.6"
+  version: 4.1.8
+  resolution: "vitest@npm:4.1.8"
   dependencies:
-    "@vitest/expect": 4.1.6
-    "@vitest/mocker": 4.1.6
-    "@vitest/pretty-format": 4.1.6
-    "@vitest/runner": 4.1.6
-    "@vitest/snapshot": 4.1.6
-    "@vitest/spy": 4.1.6
-    "@vitest/utils": 4.1.6
+    "@vitest/expect": 4.1.8
+    "@vitest/mocker": 4.1.8
+    "@vitest/pretty-format": 4.1.8
+    "@vitest/runner": 4.1.8
+    "@vitest/snapshot": 4.1.8
+    "@vitest/spy": 4.1.8
+    "@vitest/utils": 4.1.8
     es-module-lexer: ^2.0.0
     expect-type: ^1.3.0
     magic-string: ^0.30.21
@@ -3428,12 +3428,12 @@ __metadata:
     "@edge-runtime/vm": "*"
     "@opentelemetry/api": ^1.9.0
     "@types/node": ^20.0.0 || ^22.0.0 || >=24.0.0
-    "@vitest/browser-playwright": 4.1.6
-    "@vitest/browser-preview": 4.1.6
-    "@vitest/browser-webdriverio": 4.1.6
-    "@vitest/coverage-istanbul": 4.1.6
-    "@vitest/coverage-v8": 4.1.6
-    "@vitest/ui": 4.1.6
+    "@vitest/browser-playwright": 4.1.8
+    "@vitest/browser-preview": 4.1.8
+    "@vitest/browser-webdriverio": 4.1.8
+    "@vitest/coverage-istanbul": 4.1.8
+    "@vitest/coverage-v8": 4.1.8
+    "@vitest/ui": 4.1.8
     happy-dom: "*"
     jsdom: "*"
     vite: ^6.0.0 || ^7.0.0 || ^8.0.0
@@ -3464,7 +3464,7 @@ __metadata:
       optional: false
   bin:
     vitest: vitest.mjs
-  checksum: cb84d1f7bb54ae1c36f4e2b4d39a11a4769a76b989386a22a747200ab1ff52571497deb48b379d4642f570ca1c387c82994b9d80d463f364f68b7b35ad113583
+  checksum: 98096f37baa8600086265e861c572b1a9c0012665d36f179d17315c84eef13fc147007a333df714e75f85f7bcc1965aec56b6ed7e28941145997cd8415f0121a
   languageName: node
   linkType: hard
 
